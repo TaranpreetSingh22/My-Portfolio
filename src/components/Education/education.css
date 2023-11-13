@@ -1,0 +1,54 @@
+#Education_section{
+    background-color: var(--wavecolor);
+    text-align: center;
+    padding: 3%;
+    color: white;
+}
+
+#education-title{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#edu-details{
+    display: flex;
+    flex-direction: column;
+}
+
+#edu-details div{
+    border: 2px solid white;
+    padding: 1%;
+}
+
+#edu-div{
+    border: 2px solid white;
+    width: 95%;
+    margin: 3% auto;
+}
+
+@media screen and (min-width:768px) {
+    #edu-details{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #edu-div{
+        width: 44%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #edu-div div{
+        flex: 1;
+    }
+}
+
+@media screen and (min-width:1349px) {
+    #education-title{
+        font-size: 2em;
+    }
+
+    #edu-details{
+        font-size: 1.5em;
+    }
+}

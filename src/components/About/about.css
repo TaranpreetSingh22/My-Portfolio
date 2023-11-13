@@ -1,0 +1,51 @@
+#About_section{
+    padding: 3%;
+}
+
+#about-title {
+    text-align: center;
+    padding: 3%;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#about-content {
+    width: 82%;
+    margin: 1% auto;
+}
+
+#about-content p{
+    text-align: justify;
+}
+
+#skills-and-hobbies{
+    display: flex;
+    text-align: center;
+    margin: 5% auto;
+    width: 85%;
+}
+
+#skills{
+    width: 45%;
+    margin-right: 5%;
+}
+
+#hobbies{
+    width: 50%;
+}
+
+#skills-and-hobbies ul>li {
+    list-style-type: none;
+    margin-top: 2%;
+}
+
+@media screen and (min-width:1349px) {
+    #about-title{
+        margin-top: -1%;
+        font-size: 2em;
+    }
+
+    #about-content, #skills-and-hobbies{
+        font-size: 1.5em;
+    }
+}

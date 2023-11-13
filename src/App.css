@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:cursive;
+}
+
+:root{
+  --wavecolor : #015871; 
+}
+
+a{
+  text-decoration: none;
+}
+
+
